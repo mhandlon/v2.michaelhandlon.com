@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 //import ReactDOM from 'react-dom';
 
 import SideBar from "./sidebar";
+import Intro from "./intro";
+import About from "./about";
+import Opensource from "./openscource";
+
 //import Example from "./example";
 //import logo from '../logo.svg';
 
@@ -30,10 +34,10 @@ class App extends Component {
          */
     return (
       <div className="App">
-          <SideBar />
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+          <SideBar/>
+          <Intro/>
+          <About/>
+          <Opensource/>
       </div>
     );
   }

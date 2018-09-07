@@ -1,0 +1,73 @@
+section#intro {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("../img/collinsbw.jpg");
+    height: 100vh;
+    min-height: 100vh;
+}
+
+section#intro .header-content {
+    position: absolute;
+
+    top: 50%;
+    width: 100%;
+
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #333;
+    background: rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+}
+
+section#intro .header-content .header-content-inner {
+    padding: 2% 0%;
+    text-align: center;
+}
+
+section#intro .header-content .header-content-inner h1 {
+    color: white;
+    text-shadow: none;
+    padding: 0.25em;
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section#intro .header-content .header-content-inner hr {
+    border-color: #57ad68;
+}
+
+section#intro .header-content .header-content-inner p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+
+    padding: 15px 30px;
+}
+
+#btn_about {
+    background-color: #57ad68;
+    border-color: #57ad68;
+}

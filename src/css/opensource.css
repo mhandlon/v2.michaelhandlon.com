@@ -1,0 +1,25 @@
+section#opensource {
+    background-color: #343a40;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section#opensource div div h2 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+div.oss-love {
+
+}
+
+.oss-love h2 {
+    font-size: 2em;
+}
+
+.oss-love p {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}

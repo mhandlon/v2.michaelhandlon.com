@@ -1,0 +1,36 @@
+#about {
+    background-color: #57ad68;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr.about {
+    border-color: white;
+}
+
+h2.about {
+    margin-bottom: .5rem;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2em;
+}
+
+p.about {
+    margin-bottom: 20px;
+}
+
+.about {
+    color: white;
+}
+
+.text-faded {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#btn_story {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
