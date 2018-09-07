@@ -5,6 +5,7 @@ import SideBar from "./sidebar";
 import Intro from "./intro";
 import About from "./about";
 import Opensource from "./openscource";
+import Contact from "./contact";
 
 //import Example from "./example";
 //import logo from '../logo.svg';
@@ -38,6 +39,7 @@ class App extends Component {
           <Intro/>
           <About/>
           <Opensource/>
+          <Contact/>
       </div>
     );
   }

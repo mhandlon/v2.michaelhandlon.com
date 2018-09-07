@@ -28,6 +28,8 @@ div {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 hr {
@@ -39,4 +41,14 @@ hr {
 p {
     font-size: 1.1em;
     line-height: 1.5;
+    font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif
+}
+
+.btn-default {
+    color: #222;
+    background-color: white;
+    border-color: white;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
 }
