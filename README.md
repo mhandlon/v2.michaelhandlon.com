@@ -496,11 +496,11 @@ This project setup uses [Webpack](https://webpack.js.org/) for handling all asse
 
 ```js
 import React, { Component } from 'react';
-import './Button.css'; // Tell Webpack that Button.js uses these styles
+import './Button.css'; css
 
 class Button extends Component {
   render() {
-    // You can use them as regular CSS styles
+    css
     return <div className="Button" />;
   }
 }
