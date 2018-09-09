@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-
-import '../css/contact.css'
 import WOW from "wowjs";
+
+import '../css/fontawesome-all.css';
+import '../css/contact.css'
 
 export default class Contact extends React.Component {
     componentDidMount() {

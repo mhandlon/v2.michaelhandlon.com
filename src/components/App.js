@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import SideBar from "./sidebar";
 import Intro from "./intro";
 import About from "./about";
-import Opensource from "./openscource";
+import Opensource from "./opensource";
 import Contact from "./contact";
 
 //import Example from "./example";
@@ -12,7 +12,6 @@ import Contact from "./contact";
 
 import '../css/global.css';
 import '../css/App.css';
-import '../css/fontawesome-all.css';
 
 class App extends Component {
     constructor(){
