@@ -87,3 +87,12 @@
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
 }
+
+.bm-item-list a {
+    padding: 0.3em;
+    margin-bottom: 0;
+}
+
+.menu-text {
+    margin-left: 10px;
+}
