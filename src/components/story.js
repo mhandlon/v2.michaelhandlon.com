@@ -1,18 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import '../css/story.css'
+import Storyhead from './storyhead';
+import StoryContent from './storycontent'
 
-export default class Story extends React.Component {
+//import '../css/storyhead.css'
+
+export default class Storyhead extends React.Component {
     render() {
         return (
-            <section className="inner" style="background-image: url('/img/water.jpg');">
-                <div className="header-content">
-                    <div className="header-content-inner">
-                        <h1>The Story So Far</h1>
-                    </div>
-                </div>
-            </section>
+            <Storyhead/>
         );
     }
 }

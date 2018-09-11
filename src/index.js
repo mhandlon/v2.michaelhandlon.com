@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 /*
-const express = require('express');
-const path = require('path');
-const app = express();
+import { Route, Redirect } from 'react-router'
+
+import {
+    HashRouter
+} from "react-router-dom";
 */
 
 import './css/global.css';
@@ -14,4 +15,5 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<HashRouter><App /></HashRouter>, document.getElementById('root'));
 registerServiceWorker();

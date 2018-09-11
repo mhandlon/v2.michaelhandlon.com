@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 //import ReactDOM from 'react-dom';
 
-import SideBar from "./sidebar";
-import Intro from "./intro";
-import About from "./about";
-import Opensource from "./opensource";
-import Contact from "./contact";
+import {
+    BrowserRouter as Router, Link,
+    Route,
+} from 'react-router-dom'
 
-//import Example from "./example";
-//import logo from '../logo.svg';
+import SideBar from "./sidebar"
+import Home from "./home"
+import Story from "./story"
+import Github from "./github"
 
 import '../css/global.css';
 import '../css/App.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {slide as Menu} from "react-burger-menu";
 
 class App extends Component {
     constructor(){
@@ -22,23 +25,15 @@ class App extends Component {
         console.log(this.state.results);
     }
   render() {
-        /*
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-         */
     return (
-      <div className="App">
-          <SideBar/>
-          <Intro/>
-          <About/>
-          <Opensource/>
-          <Contact/>
-      </div>
+        <Router>
+        <div className="App">
+            <SideBar/>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/about" component={Story}/>
+            <Route exact path="/open-source" component={Github}/>
+        </div>
+        </Router>
     );
   }
 }
