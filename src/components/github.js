@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import '../css/github.css'
+//  import Contact from "./contact";
 
 export default class Gitrub extends React.Component {
     render() {

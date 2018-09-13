@@ -87,7 +87,7 @@ export default class Storycontent extends React.Component {
                                 </li>
                                 <li><a href="https://jenkins.io/">Jenkins</a> - continous intergration and delivery.
                                 </li>
-                                
+
                                 <li><a href="https://aws.amazon.com/">Amazon Web Services</a> - cloud hosting, built for
                                     developers.
                                 </li>
