@@ -1,0 +1,35 @@
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+a {
+    transition: all 0.35s;
+    color: #57ad68;
+    text-decoration: none;
+}
+
+figure.portrait {
+    float: right;
+    width: 50%;
+    height: 355px;
+}
+
+figure.portrait img {
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+}
+
+#content {
+    margin-top: 50px;
+}
+
+figure.portrait p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 90%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}

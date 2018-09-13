@@ -1,6 +1,5 @@
 import React from 'react';
 import Storyhead from './storyhead'
-
 import { Container, Row, Col } from 'reactstrap';
 
 import '../css/storymain.css'

@@ -2,17 +2,17 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import '../css/storycontent.css'
+import headshot from '../img/headshot.jpg'
 
 export default class Storycontent extends React.Component {
     render() {
         return (
             <section id="content">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-1"></div>
-                        <div className="col-sm-10">
+                <Container>
+                    <Row>
+                        <Col xs={{ size: '10', offset: 1 }}>
                             <figure className="portrait">
-                                <img src="img/headshot.jpg" alt="Michael Handlon"></img>
+                                <img src={headshot} alt="Michael Handlon"></img>
                                 <p>Rare photographic evidence that I exist</p>
                                 <br/>
                             </figure>
@@ -59,27 +59,27 @@ export default class Storycontent extends React.Component {
 
                             <p>I graduated from <a href="http://www.niu.edu/">Northern Illinois University</a> in 2005
                                 with a Bachelor of Science degree in <a href="http://www.cs.niu.edu/">Computer
-                                    Science</a>. I found myself working as a developer at <a
-                                    href="http://sgcaptrading.com/">SG Cap Trading</a> working on black box trading
+                                    Science</a>. I found myself working as a developer at
+                                    <a href="http://sgcaptrading.com/">SG Cap Trading</a> working on black box trading
                                 applicatons.</p>
 
                             <p>My personal projects are typically composed of one or more of these frameworks, tools,
                                 and technologies:</p>
                             <ul>
-                                <li><a href="https://symfony.com/">Symfony</a> - an open source PHP framework.</li>
-                                <li><a href="http://guides.rubyonrails.org/">Ruby on Rails</a> - an open source Ruby
-                                    framework.
-                                </li>
-                                <li><a href="https://angularjs.org">AngularJS</a> - a popular JavaScript framework.</li>
+                                <li><a href="http://www.php.net/">PHP</a> - a server side programming language.</li>
+                                <li><a href="https://www.symfony.com/">Symfony</a> - a open source PHP framework.</li>
+                                <li><a href="https://www.javascript.com/">Javascript</a> - a client side programming language.</li>
+                                <li><a href="https://reactjs.org/">ReactJs</a> - Sorry, <a href="https://angularjs.org">AngularJS</a> - a popular JavaScript framework.</li>
+                                <li><a href="http://guides.rubyonrails.org/">Ruby on Rails</a> - an open source Ruby framework.</li>
                                 <li><a href="http://foundation.zurb.com/">Foundation</a> &amp; <a
                                     href="http://getbootstrap.com/">Bootstrap</a> - frameworks to develop front-end code
                                     faster and better.
                                 </li>
-                                <li><a href="https://golang.org/">Go</a> - a open source programming language from <a
-                                    href="https://www.google.com/">Google</a>.
-                                </li>
                                 <li><a href="https://www.python.org/">Python</a> - an interpreted high-level programming
                                     language.
+                                </li>
+                                <li><a href="https://golang.org/">Go</a> - a open source programming language from <a
+                                    href="https://www.google.com/">Google</a>.
                                 </li>
                                 <li><a href="https://isocpp.org/">C++</a> - this is how I learned to code.</li>
                                 <li><a href="https://java.com">Java</a> & <a href="https://spring.io/">Spring</a> - I've
@@ -87,13 +87,14 @@ export default class Storycontent extends React.Component {
                                 </li>
                                 <li><a href="https://jenkins.io/">Jenkins</a> - continous intergration and delivery.
                                 </li>
+                                
                                 <li><a href="https://aws.amazon.com/">Amazon Web Services</a> - cloud hosting, built for
                                     developers.
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
         );
     }

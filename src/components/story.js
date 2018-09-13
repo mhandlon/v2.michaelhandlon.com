@@ -11,7 +11,7 @@ export default class Story extends React.Component {
             <div>
             <Storyhead/>
             <StoryContent/>
-                <Contact/>
+            <Contact/>
             </div>
         );
     }
