@@ -1,0 +1,22 @@
+#story {
+    background-image: url('../img/water.jpg');
+}
+
+figure.portrait p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 90%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+figure.portrait {
+    float: right;
+    width: 50%;
+    height: 355px;
+}
+
+figure.portrait img {
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+}

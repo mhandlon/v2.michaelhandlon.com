@@ -1,0 +1,19 @@
+#github {
+    background-image: url('../img/miamiriver.jpg');
+}
+
+.bg-dark {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.call-to-action h2 {
+    margin: 0 auto 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
