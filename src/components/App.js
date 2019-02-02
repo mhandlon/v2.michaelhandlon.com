@@ -22,7 +22,7 @@ class App extends Component {
         this.state = {
             results: {}
         };
-        console.log(this.state.results);
+        //console.log(this.state.results);
     }
   render() {
     return (
