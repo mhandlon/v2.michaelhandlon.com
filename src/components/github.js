@@ -45,12 +45,12 @@ export default class Github extends React.Component {
         //console.log(user);
         const repos = this.state.repos;
         console.log("repos");
-        //console.log(repos);
+        console.log(repos);
 
         var myrepos = repos.map(repos =>
                 <Container className="myrepo-cont">
                     <Row className="myrepo">
-                        <a href="{repos.html_url}">
+                        <a className="repolink" href={repos.html_url}>
                             <i class="repoicon fab fa-github fa-3x float-left"></i>
                             <h1 class="repo-name float-left">{repos.name}</h1>
                         </a>

@@ -22,6 +22,10 @@ h2 {
     color: #57ad68;
 }
 
+repolink {
+
+}
+
 .myrepos-header {
     margin-top:50px;
     margin-bottom: 50px;
@@ -35,6 +39,7 @@ h2 {
     font-weight: 500;
     padding-top: 15px;
     margin-left: 20px;
+    color: #57ad68;
 }
 
 .myrepo {
