@@ -71,3 +71,7 @@ a {
 #content {
     margin-top: 50px;
 }
+
+myrepo a:hover, myrepo a:active {
+    color: #57ad68;
+}

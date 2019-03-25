@@ -17,3 +17,37 @@ h2 {
     font-size: 2em;
     font-weight: 500;
 }
+
+.repoicon {
+    color: #57ad68;
+}
+
+.myrepos-header {
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.repo-name {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.8em;
+    #line-height: 1.5;
+    font-weight: 500;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.myrepo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myrepo-cont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.repo-desc {
+    margin-top: 10px;
+}
