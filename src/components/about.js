@@ -14,7 +14,7 @@ export default class About extends React.Component {
                             <h2 className="about">I like to help.</h2>
                             <hr className="about"/>
                                 <p className="about text-faded">I like to improve the software development process and write robust software. I love working with talented people, contributing to open source projects, and adding technical vision to strategic conversations.</p>
-                                <a id="btn_story" href="/about.html" className="btn btn-default">The story so far</a>
+                                <a id="btn_story" href="/about" className="btn btn-default">The story so far</a>
                         </Col>
                     </Row>
                 </Container>

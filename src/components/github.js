@@ -44,8 +44,8 @@ export default class Github extends React.Component {
         const user = this.state.user;
         //console.log(user);
         const repos = this.state.repos;
-        console.log("repos");
-        console.log(repos);
+        //console.log("repos");
+        //console.log(repos);
 
         var myrepos = repos.map(repos =>
                 <Container className="myrepo-cont">
