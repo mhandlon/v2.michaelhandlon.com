@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/css/sidebar.css" description=".bm-menu a:hover {" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4d188bd-6b93-48dd-a10f-619d9cdac57e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/github.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/opensource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/opensource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/github.css" afterDir="false" />
-    </list>
+    <list default="true" id="d4d188bd-6b93-48dd-a10f-619d9cdac57e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -275,12 +269,12 @@
       <workItem from="1550188177232" duration="19000" />
       <workItem from="1550188220681" duration="42000" />
       <workItem from="1550188289135" duration="9799000" />
-      <workItem from="1553469183849" duration="10356000" />
+      <workItem from="1553469183849" duration="10750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279374000" />
+    <option name="totallyTimeSpent" value="279768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
