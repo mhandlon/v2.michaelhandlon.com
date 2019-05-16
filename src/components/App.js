@@ -1,8 +1,9 @@
-    import React, { Component } from 'react';
+import React, { Component } from 'react';
 //import ReactDOM from 'react-dom';
 
 import {
-    BrowserRouter as Router, Link,
+    BrowserRouter as Router,
+    //Link,
     Route,
 } from 'react-router-dom'
 
@@ -13,8 +14,8 @@ import Github from "./github"
 
 import '../css/global.css';
 import '../css/App.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {slide as Menu} from "react-burger-menu";
+//import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+//import {slide as Menu} from "react-burger-menu";
 
 class App extends Component {
     constructor(){
