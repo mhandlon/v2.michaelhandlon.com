@@ -43,6 +43,11 @@ export default class Contact extends React.Component {
                             </a>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col lg="12">
+                            <p className="text-center copyright">© 2014-2019 Michael Handlon</p>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         );

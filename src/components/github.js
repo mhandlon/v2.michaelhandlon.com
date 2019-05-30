@@ -38,13 +38,12 @@ export default class Github extends React.Component {
     render() {
 
         if (!this.state.user || !this.state.repos) {
-            return (<div className="user-page">LOADING...</div>);
+            return (<div className="loading">LOADING...</div>);
         }
 
         const user = this.state.user;
         //console.log(user);
         const repos = this.state.repos;
-        //console.log("repos");
         //console.log(repos);
 
         var myrepos = repos.map(repos =>

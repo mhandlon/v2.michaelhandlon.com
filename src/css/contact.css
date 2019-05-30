@@ -35,3 +35,10 @@ hr.contact {
     font-size: 1em;
     color: #cecece;
 }
+
+.copyright {
+    color: #ccc;
+    margin-top: 10px;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
