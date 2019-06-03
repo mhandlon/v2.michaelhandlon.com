@@ -35,22 +35,12 @@ export default class Story extends React.Component {
                                     Converlogic</a> and working to bring telecommunication and mobile banking services
                                     to the people of Sudan. We're using a tech stack that includes <a href="http://www.php.net/">PHP</a>, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://symfony.com/">Symfony</a>, <a href="https://isocpp.org/">C++</a> and <a href="https://java.com">Java</a>.
                                 </p>
+
                                 <p>Before that, I’d been using my powers to help with the digitization of print media
                                     at <a href="http://www.crl.edu/">The Center for Research Libraries</a>. where there was
                                     a focus on <a href="https://www.python.org/">Python</a>, <a
                                         href="https://symfony.com/">Symfony</a>, <a href="https://www.drupal.org/">Drupal</a>,
                                         and <a href="https://aws.amazon.com/">Amazon Web Services</a>.</p>
-
-                                <p>After a helping <a href="http://www.crl.edu/">The Center for Research
-                                    Libraries</a> launch their new document delivery system, I’ve decided to pursue new
-                                    opportunities in south Florida. I want to focus on building elegant solutions to
-                                    difficult problems and writing code I’m proud to show my peers.</p>
-
-                                <p>In my remaining time I’m actively involved in the <a
-                                    href="https://www.2600.com/">#2600</a> <a
-                                    href="https://www.2600.com/meetings/mtg.html">community</a>, contributing to <a
-                                    href="https://github.com/mhandlon">open source projects</a>, going to conferences,
-                                    reading, and staying active.</p>
 
                                 <p>For 2014 to 2016 I was helping <a href="http://www.premierfarnell.com/">Premier
                                     Farnell</a> corner the development tool marketplace. I contributed a good amount of <a
@@ -71,9 +61,13 @@ export default class Story extends React.Component {
 
                                 <p>I graduated from <a href="http://www.niu.edu/">Northern Illinois University</a> in 2005
                                     with a Bachelor of Science degree in <a href="http://www.cs.niu.edu/">Computer
-                                        Science</a>. I found myself working as a developer at
-                                    <a href="http://sgcaptrading.com/">SG Cap Trading</a> working on black box trading
-                                    applicatons.</p>
+                                        Science</a>. After I worked as a developer at <a href="http://sgcaptrading.com/">SG Cap Trading</a> working on black box trading applicatons.</p>
+
+                                <p>In my remaining time I’m actively involved in the <a
+                                    href="https://www.2600.com/">#2600</a> <a
+                                    href="https://www.2600.com/meetings/mtg.html">community</a>, contributing to <a
+                                    href="https://github.com/mhandlon">open source projects</a>, going to conferences,
+                                    reading, and staying active.</p>
 
                                 <p>My personal projects are typically composed of one or more of these frameworks, tools,
                                     and technologies:</p>
