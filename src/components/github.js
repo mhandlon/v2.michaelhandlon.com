@@ -50,7 +50,6 @@ export default class Github extends React.Component {
         var myrepos = repos.map(repos => {
 
             var date = new Date(repos.updated_at);
-            //console.log(date);
 
             //var moment = require('moment');
             //moment = moment.parse(repos.updated_at);
