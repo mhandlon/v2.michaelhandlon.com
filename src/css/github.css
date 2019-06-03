@@ -50,7 +50,8 @@ h2 {
 }
 
 .repo-desc {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .loading {
@@ -61,4 +62,10 @@ h2 {
     line-height: 100vh;
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2em;
+}
+
+.repo-date {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ccc;
 }

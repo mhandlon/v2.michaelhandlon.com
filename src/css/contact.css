@@ -17,6 +17,10 @@ section#contact {
     color: #57ad68;
 }
 
+#contact div div div a {
+    color: #57ad68;
+}
+
 h2.contact {
     margin-bottom: .5rem;
     font-weight: 500;
@@ -38,7 +42,8 @@ hr.contact {
 
 .copyright {
     color: #ccc;
-    margin-top: 10px;
-    font-size: 1.25em;
-    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 1.0em;
+    line-height: 1.0em;
 }
+

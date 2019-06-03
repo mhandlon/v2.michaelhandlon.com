@@ -44,19 +44,34 @@ export default class Github extends React.Component {
         const user = this.state.user;
         //console.log(user);
         const repos = this.state.repos;
-        //console.log(repos);
+        console.log(repos);
+        //var datetime_formatter = require('datetime-formatter');
 
-        var myrepos = repos.map(repos =>
-                <Container className="myrepo-cont">
-                    <Row className="myrepo">
-                        <a href={repos.html_url}>
-                            <i class="repoicon fab fa-github fa-3x float-left"></i>
-                            <h1 class="repo-name float-left">{repos.name}</h1>
-                        </a>
-                    </Row>
-                    <p className="repo-desc text-center">{repos.description}</p>
-                </Container>
-            );
+        var myrepos = repos.map(repos => {
+
+            var date = new Date(repos.updated_at);
+            //console.log(date);
+
+            //var moment = require('moment');
+            //moment = moment.parse(repos.updated_at);
+            //console.log(moment.year());
+
+            //var formattedDateTime = datetime_formatter.formatDateTime(repos.updated_at, 'MM/DD/YYYY HH:mm:ss');
+            //var mydate = new Date()
+            //mydate.parse(repos.updated_at);
+            //console.log(mydate.getMonth() + "/" + mydate.getDay() + "/" + mydate.getYear());
+
+            return <Container className="myrepo-cont">
+                <Row className="myrepo">
+                    <a href={repos.html_url}>
+                        <i class="repoicon fab fa-github fa-3x float-left"></i>
+                        <h1 class="repo-name float-left">{repos.name}</h1>
+                    </a>
+                </Row>
+                <p className="repo-desc text-center">{repos.description}</p>
+                <p class="repo-date">updated: {date.toLocaleString()}</p>
+            </Container>;
+        });
 
         return (
             <div>
