@@ -31,14 +31,15 @@ export default class Story extends React.Component {
                                 <p>Hello - I’m <a href="http://twitter.com/mhandlon">Michael Handlon</a>. I’ve been building
                                     software <a href="http://www.linkedin.com/in/mhandlon">since 2005</a>.</p>
 
-                                <p>Most recently, I’ve been using my powers to help with the digitization of print media
-                                    at <a href="http://www.crl.edu/">The Center for Research Libraries</a>. Their technology
-                                    stack included <a href="http://www.php.net/">PHP</a>, <a
-                                        href="https://www.python.org/">Python</a>, client-side <a
-                                        href="https://www.javascript.com/">JavaScript</a>, <a
-                                        href="https://symfony.com/">Symfony</a>, <a
-                                        href="https://www.drupal.org/">Drupal</a>, and <a href="https://aws.amazon.com/">Amazon
-                                        Web Services</a>.</p>
+                                <p>I’m currently a software engineer with <a href="https://www.converlogic.com/web/app_dev.php/converlogic/home">
+                                    Converlogic</a> and working to bring telecommunication and mobile banking services
+                                    to the people of Sudan. We're using a tech stack that includes <a href="http://www.php.net/">PHP</a>, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://symfony.com/">Symfony</a>, <a href="https://isocpp.org/">C++</a> and <a href="https://java.com">Java</a>.
+                                </p>
+                                <p>Before that, I’d been using my powers to help with the digitization of print media
+                                    at <a href="http://www.crl.edu/">The Center for Research Libraries</a>. where there was
+                                    a focus on <a href="https://www.python.org/">Python</a>, <a
+                                        href="https://symfony.com/">Symfony</a>, <a href="https://www.drupal.org/">Drupal</a>,
+                                        and <a href="https://aws.amazon.com/">Amazon Web Services</a>.</p>
 
                                 <p>After a helping <a href="http://www.crl.edu/">The Center for Research
                                     Libraries</a> launch their new document delivery system, I’ve decided to pursue new
@@ -80,7 +81,7 @@ export default class Story extends React.Component {
                                     <li><a href="http://www.php.net/">PHP</a> - a server side programming language.</li>
                                     <li><a href="https://www.symfony.com/">Symfony</a> - a open source PHP framework.</li>
                                     <li><a href="https://www.javascript.com/">Javascript</a> - a client side programming language.</li>
-                                    <li><a href="https://reactjs.org/">ReactJs</a> - Sorry, <a href="https://angularjs.org">AngularJS</a> - a popular JavaScript framework.</li>
+                                    <li><a href="https://reactjs.org/">React</a> - Sorry, <a href="https://angularjs.org">Angular</a> - a popular JavaScript framework.</li>
                                     <li><a href="http://guides.rubyonrails.org/">Ruby on Rails</a> - an open source Ruby framework.</li>
                                     <li><a href="http://foundation.zurb.com/">Foundation</a> &amp; <a
                                         href="http://getbootstrap.com/">Bootstrap</a> - frameworks to develop front-end code
