@@ -44,21 +44,16 @@ export default class Github extends React.Component {
         const user = this.state.user;
         //console.log(user);
         const repos = this.state.repos;
-        console.log(repos);
+        //console.log(repos);
         //var datetime_formatter = require('datetime-formatter');
 
         var myrepos = repos.map(repos => {
 
-            var date = new Date(repos.updated_at);
+            var updated = new Date(repos.updated_at);
+            var created = new Date(repos.created_at);
 
             //var moment = require('moment');
             //moment = moment.parse(repos.updated_at);
-            //console.log(moment.year());
-
-            //var formattedDateTime = datetime_formatter.formatDateTime(repos.updated_at, 'MM/DD/YYYY HH:mm:ss');
-            //var mydate = new Date()
-            //mydate.parse(repos.updated_at);
-            //console.log(mydate.getMonth() + "/" + mydate.getDay() + "/" + mydate.getYear());
 
             return <Container className="myrepo-cont">
                 <Row className="myrepo">
@@ -68,7 +63,7 @@ export default class Github extends React.Component {
                     </a>
                 </Row>
                 <p className="repo-desc text-center">{repos.description}</p>
-                <p class="repo-date">updated: {date.toLocaleString()}</p>
+                <p class="repo-date">{repos.language} | updated: {updated.toLocaleString()} | created: {created.toLocaleString()}</p>
             </Container>;
         });
 
