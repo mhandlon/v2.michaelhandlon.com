@@ -73,9 +73,9 @@ export default class Story extends React.Component {
                                     and technologies:</p>
                                 <ul>
                                     <li><a href="http://www.php.net/">PHP</a> - a server side programming language.</li>
-                                    <li><a href="https://www.symfony.com/">Symfony</a> - a open source PHP framework.</li>
+                                    <li><a href="https://www.symfony.com/">Symfony</a> or <a href="https://laravel.com/">Laravel</a> - open source PHP frameworks.</li>
                                     <li><a href="https://www.javascript.com/">Javascript</a> - a client side programming language.</li>
-                                    <li><a href="https://reactjs.org/">React</a> - Sorry, <a href="https://angularjs.org">Angular</a> - a popular JavaScript framework.</li>
+                                    <li><a href="https://reactjs.org/">React</a> or <a href="https://vuejs.org/">Vue.js</a> - Sorry, <a href="https://angularjs.org">Angular</a> - popular JavaScript frameworks.</li>
                                     <li><a href="http://guides.rubyonrails.org/">Ruby on Rails</a> - an open source Ruby framework.</li>
                                     <li><a href="http://foundation.zurb.com/">Foundation</a> &amp; <a
                                         href="http://getbootstrap.com/">Bootstrap</a> - frameworks to develop front-end code
@@ -93,7 +93,6 @@ export default class Story extends React.Component {
                                     </li>
                                     <li><a href="https://jenkins.io/">Jenkins</a> - continous intergration and delivery.
                                     </li>
-
                                     <li><a href="https://aws.amazon.com/">Amazon Web Services</a> - cloud hosting, built for
                                         developers.
                                     </li>
