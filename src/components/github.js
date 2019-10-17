@@ -17,8 +17,6 @@ export default class Github extends React.Component {
             .then(response => response.json())
             .then(
                 user => {
-                    // How can we use `this` inside a callback without binding it??
-                    // Make sure you understand this fundamental difference with arrow functions!!!
                     this.setState({
                         user: user
                     });
@@ -38,14 +36,11 @@ export default class Github extends React.Component {
     render() {
 
         if (!this.state.user || !this.state.repos) {
-            return (<div className="loading">LOADING...</div>);
+            return (<div className={"loading"}>LOADING...</div>);
         }
 
         const user = this.state.user;
-        //console.log(user);
         const repos = this.state.repos;
-        //console.log(repos);
-        //var datetime_formatter = require('datetime-formatter');
 
         var myrepos = repos.map(repos => {
 
@@ -55,45 +50,45 @@ export default class Github extends React.Component {
             //var moment = require('moment');
             //moment = moment.parse(repos.updated_at);
 
-            return <Container className="myrepo-cont">
-                <Row className="myrepo">
+            return <Container className={"myrepo-cont"}>
+                <Row className={"myrepo"}>
                     <a href={repos.html_url}>
-                        <i class="repoicon fab fa-github fa-3x float-left"></i>
-                        <h1 class="repo-name float-left">{repos.name}</h1>
+                        <i className={"repoicon fab fa-github fa-3x float-left"}></i>
+                        <h1 className={"repo-name float-left"}>{repos.name}</h1>
                     </a>
                 </Row>
-                <p className="repo-desc text-center">{repos.description}</p>
-                <p class="repo-date">{repos.language} | updated: {updated.toLocaleString()} | created: {created.toLocaleString()}</p>
+                <p className={"repo-desc text-center"}>{repos.description}</p>
+                <p className={"repo-date"}>{repos.language} | updated: {updated.toLocaleString()} | created: {created.toLocaleString()}</p>
             </Container>;
         });
 
         return (
             <div>
-            <section id="github" className="inner">
-                <div className="header-content">
-                    <div className="header-content-inner">
-                        <h1>Open Source</h1>
+                <section id={"github"} className={"inner"}>
+                    <div className={"header-content"}>
+                        <div className={"header-content-inner"}>
+                            <h1>Open Source</h1>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <Container>
-                <Row className="myrepos-header">
-                    <Col xs="12 ">
-                        <p className="text-center">If you get to know me, you'll learn that I love open source software; <a href="https://github.com/mhandlon">contributing</a> and consuming.<br />I've curated the following list of {user.public_repos} open source projects.</p>
-                    </Col>
-                </Row>
-            </Container>
-                {myrepos}
-            <aside className="bg-dark">
+                </section>
                 <Container>
-                    <div className="call-to-action text-center">
-                        <h2>My eyes and ears are open.</h2>
-                        <p>I am on the lookout for more open source projects and opportunities. If you've got one,
-                            let's talk!</p>
-                    </div>
+                    <Row className={"myrepos-header"}>
+                        <Col xs={"12"}>
+                            <p className={"text-center"}>If you get to know me, you'll learn that I love open source software; <a href={"https://github.com/mhandlon"}>contributing</a> and consuming.<br />I've curated the following list of {user.public_repos} open source projects.</p>
+                        </Col>
+                    </Row>
                 </Container>
-            </aside>
-            <Contact />
+                    {myrepos}
+                <aside className={"bg-dark"}>
+                    <Container>
+                        <div className={"call-to-action text-center"}>
+                            <h2>My eyes and ears are open.</h2>
+                            <p>I am on the lookout for more open source projects and opportunities. If you've got one,
+                                let's talk!</p>
+                        </div>
+                    </Container>
+                </aside>
+                <Contact />
             </div>
         );
     }
