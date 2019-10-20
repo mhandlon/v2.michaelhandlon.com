@@ -20,7 +20,7 @@ import '../css/App.css';
 class App extends Component {
     constructor(){
         super();
-        this.state = {
+          this.state = {
             results: {}
         };
         //console.log(this.state.results);

@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import {Container, Row, Col} from 'reactstrap';
 
 import '../css/github.css'
+import Repo from "./repo";
 import Contact from "./contact";
 
 export default class Github extends React.Component {
@@ -9,7 +10,6 @@ export default class Github extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
-        //console.log(React.version);
     }
 
     componentDidMount() {
@@ -33,35 +33,48 @@ export default class Github extends React.Component {
             );
     }
 
-    render() {
+    renderUserJSX() {
 
-        if (!this.state.user || !this.state.repos) {
+        var  publicRepoCnt = 0;
+
+        if (this.state.user){
+            const user = this.state.user;
+            publicRepoCnt = user.public_repos;
+        }
+
+        return( <Container>
+                    <Row className={"myrepos-header"}>
+                        <Col xs={"12"}>
+                            <p className={"text-center"}>If you get to know me, you'll learn that I love open source
+                                software; <a href={"https://github.com/mhandlon"}>contributing</a> and consuming.<br/>I've
+                                curated the following list of {publicRepoCnt} open source projects.</p>
+                        </Col>
+                    </Row>
+                </Container>);
+    }
+
+    renderGithubJSX() {
+
+        if (this.state.repos === undefined) {
             return (<div className={"loading"}>LOADING...</div>);
         }
 
-        const user = this.state.user;
         const repos = this.state.repos;
-
-        var myrepos = repos.map(repos => {
-
-            var updated = new Date(repos.updated_at);
-            var created = new Date(repos.created_at);
-
-            //var moment = require('moment');
-            //moment = moment.parse(repos.updated_at);
-
-            return <Container className={"myrepo-cont"}>
-                <Row className={"myrepo"}>
-                    <a href={repos.html_url}>
-                        <i className={"repoicon fab fa-github fa-3x float-left"}></i>
-                        <h1 className={"repo-name float-left"}>{repos.name}</h1>
-                    </a>
-                </Row>
-                <p className={"repo-desc text-center"}>{repos.description}</p>
-                <p className={"repo-date"}>{repos.language} | updated: {updated.toLocaleString()} | created: {created.toLocaleString()}</p>
-            </Container>;
+        var myrepos = repos.map(repo => {
+            const repoProps = {
+                html_url: repo.html_url,
+                name: repo.name,
+                description: repo.description,
+                language: repo.language,
+                updated_at: repo.updated_at,
+                created_at: repo.created_at,
+            };
+            return(<Repo {...repoProps}/>);
         });
+        return(<div>{myrepos}</div>);
+    };
 
+    render() {
         return (
             <div>
                 <section id={"github"} className={"inner"}>
@@ -71,14 +84,8 @@ export default class Github extends React.Component {
                         </div>
                     </div>
                 </section>
-                <Container>
-                    <Row className={"myrepos-header"}>
-                        <Col xs={"12"}>
-                            <p className={"text-center"}>If you get to know me, you'll learn that I love open source software; <a href={"https://github.com/mhandlon"}>contributing</a> and consuming.<br />I've curated the following list of {user.public_repos} open source projects.</p>
-                        </Col>
-                    </Row>
-                </Container>
-                    {myrepos}
+                {this.renderUserJSX()}
+                {this.renderGithubJSX()}
                 <aside className={"bg-dark"}>
                     <Container>
                         <div className={"call-to-action text-center"}>
@@ -88,7 +95,7 @@ export default class Github extends React.Component {
                         </div>
                     </Container>
                 </aside>
-                <Contact />
+                <Contact/>
             </div>
         );
     }
