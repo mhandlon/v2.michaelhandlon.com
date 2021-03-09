@@ -10,6 +10,11 @@ export default class Contact extends React.Component {
     componentDidMount() {
         const wow = new WOW.WOW();
         wow.init();
+        new Date().getFullYear()
+    }
+
+    currentYear() {
+        return new Date().getFullYear();
     }
 
     render() {
@@ -53,7 +58,7 @@ export default class Contact extends React.Component {
                     </Row>
                     <Row>
                         <Col lg={"12"}>
-                            <p className={"text-center copyright"}>© 2014-2020 Michael Handlon</p>
+                            <p className={"text-center copyright"}>© 2014-{this.currentYear()} Michael Handlon</p>
                         </Col>
                     </Row>
                 </Container>
