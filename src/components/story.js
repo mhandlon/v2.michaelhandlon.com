@@ -32,20 +32,38 @@ export default class Story extends React.Component {
                                 <p>Hello - I’m <a href={"http://twitter.com/mhandlon"}>Michael Handlon</a>. I’ve been building
                                     software <a href={"http://www.linkedin.com/in/mhandlon"}>since 2005</a>.</p>
 
-                                <p>I’m currently a software engineer with <a href={"https://www.converlogic.com"}>
-                                    Converlogic</a> and working to bring telecommunication and mobile banking services
-                                    to the people of Sudan. We're using a tech stack that includes <a href={"http://www.php.net"}>PHP</a>, <a href={"https://www.javascript.com"}>JavaScript</a>, <a href={"https://symfony.com"}>Symfony</a>, <a href={"https://isocpp.org"}>C++</a> and <a href={"https://java.com"}>Java</a>.
+                                <p>I'm currently a <a href={"https://www.php.net/"}>PHP</a> developer at the <a href={"https://www.nsls.org"}>National Society of Leadership & Success></a>.
+                                    We're currently working on building software that will help empower today and tomorrow's leaders to upskill the world.
+                                    To do this we're using <a href={"http://www.php.net"}>PHP</a> w/ <a href={"https://symfony.com/"}>Symfony</a>,
+                                    & <a href={"https://www.javascript.com"}>JavaScript</a> w/ <a href={"https://reactjs.org/"}>React</a>.
+                                    Or DevOps are mostly <a href={"https://www.docker.com/"}>Docker</a> for development &
+                                    <a href={"https://aws.amazon.com"}>Amazon Web Services</a> for hosting.
+                                </p>
+
+                                <p>Around the start of the pandemic I made a move to <a href={"https://www.sonnysdirect.com/"}>Sonny's Enterprises</a>
+                                    working on the development of cloud-based SaaS web solutions for 300+ carwash companies.  Working with a
+                                    diverse tech stack that included <a href={"http://www.php.net"}>PHP</a>, <a href={"https://symfony.com/"}>Symfony</a>,
+                                    <a href={"https://www.javascript.com"}>JavaScript</a>, <a href={"https://jquery.com/"}>jQuery</a>,
+                                    <a href={"https://getbootstrap.com/"}>Bootstrap</a>, <a href={"https://www.python.org/"}>Python</a>,
+                                    & <a href={"https://go.dev/"}>Go</a>.
+                                </p>
+
+                                <p>After moving to Miami in 2018 I found employmeny as a software engineer with <a href={"https://www.converlogic.com"}>
+                                    Converlogic</a>. Where I was working to bring telecommunication and mobile banking services
+                                    to the people of Sudan. We're using a tech stack that includes <a href={"https://www.php.net"}>PHP</a>,
+                                    <a href={"https://www.javascript.com"}>JavaScript</a>, <a href={"https://symfony.com"}>Symfony</a>,
+                                    <a href={"https://isocpp.org"}>C++</a> and <a href={"https://java.com"}>Java</a>.
                                 </p>
 
                                 <p>Before that, I’d been using my powers to help with the digitization of print media
-                                    at <a href={"http://www.crl.edu"}>The Center for Research Libraries</a>. where there was
+                                    at <a href={"http://www.crl.edu"}>The Center for Research Libraries</a>. Where there was
                                     a focus on <a href={"https://www.python.org"}>Python</a>, <a
                                         href={"https://symfony.com"}>Symfony</a>, <a href={"https://www.drupal.org"}>Drupal</a>,
                                         and <a href={"https://aws.amazon.com"}>Amazon Web Services</a>.</p>
 
                                 <p>For 2014 to 2016 I was helping <a href={"http://www.premierfarnell.com"}>Premier
                                     Farnell</a> corner the development tool marketplace. I contributed a good amount of <a
-                                    href={"http://www.php.net"}>PHP</a> and <a
+                                    href={"https://www.php.net"}>PHP</a> and <a
                                     href={"https://www.javascript.com"}>JavaScript</a> and helped bring the <a
                                     href={"https://www.element14.com"}>Element14 Community</a> to the next level. I was part
                                     of a talented team and I grew a lot while working on some challenging projects.</p>
@@ -53,16 +71,18 @@ export default class Story extends React.Component {
                                 <p>I spent the better part of 2013 working at <a href={"https://marineessentials.com"}>EOK
                                     Marketing</a>. Doing full stack web development and managing there <a
                                     href={"https://aws.amazon.com"}>AWS</a> servers. I completed a number of projects on a
-                                    LAMP stack and the <a href={"https://www.salesforce.com"}>Salesforce</a> platform.</p>
+                                    LAMP stack with <a href={"https://wordpress.com/"}>WordPress</a> and the
+                                    <a href={"https://www.salesforce.com"}>Salesforce</a> platform.</p>
 
                                 <p>Before joining the team at <a href="https://marineessentials.com/">EOK Marketing</a> I
                                     did contract web development from 2007-2013 throughout the Chicagoland area. This was a
-                                    chance for me to earn my chops by working with different teams, methodologies,
+                                    chance for me to earn my chops by working with different teams, technologies, methodologies,
                                     platforms, and design patterns.</p>
 
                                 <p>I graduated from <a href={"http://www.niu.edu"}>Northern Illinois University</a> in 2005
                                     with a Bachelor of Science degree in <a href={"http://www.cs.niu.edu"}>Computer
-                                        Science</a>. After I worked as a developer at <a href={"http://sgcaptrading.com"}>SG Cap Trading</a> working on black box trading applicatons.</p>
+                                        Science</a>. After I worked as a developer at <a href={"http://sgcaptrading.com"}>
+                                        SG Cap Trading</a> working on black box trading applicatons.</p>
 
                                 <p>In my remaining time I’m actively involved in the <a
                                     href={"https://www.2600.com"}>#2600</a> <a
@@ -74,9 +94,9 @@ export default class Story extends React.Component {
                                     and technologies:</p>
                                 <ul>
                                     <li><a href={"http://www.php.net"}>PHP</a> - a server side programming language.</li>
-                                    <li><a href={"https://www.symfony.com"}>Symfony</a> or <a href="https://laravel.com/">Laravel</a> - open source PHP frameworks.</li>
+                                    <li><a href={"https://www.symfony.com"}>Symfony</a> - an open source PHP framework.</li>
                                     <li><a href={"https://www.javascript.com"}>Javascript</a> - a client side programming language.</li>
-                                    <li><a href={"https://reactjs.org"}>React</a> or <a href="https://vuejs.org">Vue.js</a> - Sorry, <a href={"https://angularjs.org"}>Angular</a> - popular JavaScript frameworks.</li>
+                                    <li><a href={"https://reactjs.org"}>React</a> - Sorry, <a href={"https://angularjs.org"}>Angular</a> - a popular JavaScript framework.</li>
                                     <li><a href={"http://guides.rubyonrails.org"}>Ruby on Rails</a> - an open source Ruby framework.</li>
                                     <li><a href={"http://foundation.zurb.com"}>Foundation</a> &amp; <a
                                         href={"http://getbootstrap.com"}>Bootstrap</a> - frameworks to develop front-end code
@@ -85,7 +105,7 @@ export default class Story extends React.Component {
                                     <li><a href={"https://www.python.org"}>Python</a> - an interpreted high-level programming
                                         language.
                                     </li>
-                                    <li><a href={"https://golang.org"}>Go</a> - a open source programming language from <a
+                                    <li><a href={"https://go.dev/"}>Go</a> - a open source programming language from <a
                                         href={"https://www.google.com"}>Google</a>.
                                     </li>
                                     <li><a href={"https://isocpp.org"}>C++</a> - this is how I learned to code.</li>
