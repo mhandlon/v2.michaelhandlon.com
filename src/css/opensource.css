@@ -12,6 +12,12 @@ section#opensource div div h2 {
     line-height: 1.2;
 }
 
+#btn_os {
+     background-color: white;
+     border-color: white;
+     color: black;
+}
+
 /*
 div.oss-love {
 

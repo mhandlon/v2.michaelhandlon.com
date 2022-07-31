@@ -17,7 +17,7 @@ export default class Opensource extends React.Component {
                     <div className="oss-love">
                         <h2>I &hearts; open source!</h2>
                         <p>I love giving back.</p>
-                        <a href="/open-source" className="btn btn-default btn-xl wow tada">Open source projects</a>
+                        <a id="btn_os" href="/open-source" className="btn btn-default btn-xl wow tada">Open source projects</a>
                     </div>
                 </Container>
             </section>
