@@ -20,10 +20,10 @@ library.add(
     faEnvelope,
 );
 
-export default props => {
+export default () => {
     return (
         <Menu>
-            <Link to='/'><FontAwesomeIcon icon="home" /><span class="menu-text">Home</span></Link>
+            <Link to='/'><FontAwesomeIcon icon="home" /><span className="menu-text">Home</span></Link>
             <Link to='/about'><FontAwesomeIcon icon="newspaper" /><span className="menu-text">About</span></Link>
             <Link to="/open-source"><FontAwesomeIcon icon={['fab', 'github']} /> <span className="menu-text">Open Source</span></Link>
             <a className="menu-item" href="#contact"><FontAwesomeIcon icon="envelope" /> <span className="menu-text">Contact</span></a>

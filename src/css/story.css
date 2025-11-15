@@ -14,9 +14,14 @@ figure.portrait {
     float: right;
     width: 50%;
     height: 355px;
+    margin-left: 10px;
 }
 
 figure.portrait img {
     border-bottom: 1px solid #efefef;
     width: 100%;
+}
+
+ul li ul li {
+    list-style-type: circle;
 }
