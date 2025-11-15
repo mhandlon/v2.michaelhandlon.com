@@ -35,7 +35,7 @@ export default class Story extends React.Component {
                                     href={"https://www.activecampaign.com"}>ActiveCampaign</a>.
                                     I'm working on updating their internal billing systems to support the new <a
                                         href={"https://www.activecampaign.com"}>ActiveCampaign</a> <a
-                                        href={"https://www.activecampaign.com/pricing"}>Cloud pricing model</a>.
+                                        href={"https://www.activecampaign.com/pricing"}>cloud pricing model</a>.
                                     Which is a complex system with a lot of microservices. Here we use a lot of
                                     different
                                     technologies but here are some of the main ones I've been working with recently. <a
@@ -72,8 +72,8 @@ export default class Story extends React.Component {
                                         href={"https://www.php-fig.org/psr/psr-12/"}>PSR-12</a> coding standards.
                                     As well as continuing to update the application with new features and bug fixes.
                                     The DevOps consist of <a href={"https://www.docker.com/"}>Docker</a> for local
-                                    development, <a href={"https://newrelic.com"}>New Relic</a>, <a
-                                        href={"https://github.com/enterprise"}>Git Enterprise</a>, <a href={"https://www.docker.com/"}>Docker</a> & <a
+                                    development, <a href={"https://newrelic.com"}>New Relic</a> for monitoring/logging, <a
+                                        href={"https://github.com/enterprise"}>Git Enterprise</a> for source control & <a
                                         href={"https://aws.amazon.com"}>Amazon Web Services</a> for hosting.
                                 </p>
 
