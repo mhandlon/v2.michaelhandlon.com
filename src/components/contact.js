@@ -26,7 +26,7 @@ export default class Contact extends React.Component {
                         <Col lg={"8"} className="text-center">
                             <h2 className={"contact"}>Let's Get In Touch!</h2>
                             <hr className={"contact"}/>
-                                <p>Ready to start your next project with me? Curious what I am up to? Have a food, film,
+                                <p>Ready to start your next project with me? Curious what I am up to? Have a food, film, book
                                     or music recommendation?</p>
                         </Col>
                     </Row>
@@ -49,10 +49,10 @@ export default class Contact extends React.Component {
                         </Col>
                         <Col lg={"4"}
                              className={"text-center"}>
-                            <a href={"mailto:micahel.handlon@gmail.com"}>
+                            <a href={"mailto:mhandlon@pm.me"}>
                                 <i className={"far fa-envelope fa-3x wow bounceIn"}
                                    data-wow-delay={".1s"}></i>
-                                <p>micahel.handlon@gmail.com</p>
+                                <p>mhandlon@pm.me</p>
                             </a>
                         </Col>
                     </Row>
